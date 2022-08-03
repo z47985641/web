@@ -14,13 +14,7 @@
 .D2 {
     width: 425px;
     float: left;
-    padding: 1px 5px 5px 5px;
 }
-.D3 {
-    width: 425px;
-    padding: 1px 5px 5px 5px;
-}
-
 .img1 {
     width: 400px;
     float: left;
@@ -44,32 +38,14 @@
 h1 {
     color: #6FB7B7;
     font-size: 30px;
-    padding: 1px 1px 1px 1px;
 }
 
 h2 {
     color: #6FB7B7;
     font-size: 24px;
-    padding: 1px 1px 1px 1px;
 }
 
 p {
     font-size: 14px;
 }
 
-a:link {
-    color: #6FB7B7;
-    text-decoration: none;
-}
-a:visited {
-    color: #934949;
-    text-decoration: underline;
-}
-a:hover {
-    color: #a3d1d1;
-}
-a:active {
-    color: #499191;
-    text-decoration: underline;
-}
-       
