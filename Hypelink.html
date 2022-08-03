@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>超連結應用</title>
+    <style>
+        /*a:link {
+            color: #FFA600 ;
+        }
+        a:visited {
+            color: #C78100;
+        }
+        a:hover {
+            color: #FFDEA1
+        }
+        a:active {
+            color: #8A0000;
+        }*/
+
+       /* .list a:link {
+            color: #FFA600;
+        }
+
+        .list a:visited {
+            color: #C78100;
+        }
+
+        .list a:hover {
+            color: #FFDEA1
+        }
+
+        .list a:active {
+            color: #8A0000;
+        }*/
+
+        .list > li > a:link {
+            color: #FFA600 ;
+        }
+        .list > li > a:visited {
+            color: #C78100;
+        }
+        .list > li > a:hover {
+            color: #FFDEA1
+        }
+        .list > li > a:active {
+            color: #8A0000;
+        }
+        img {
+            width: 500px;
+            border: 10px solid red;
+            padding: 5px 5px 5px 5px ;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="First.html">First</a>
+    <a href="SC.html">Sc</a>
+    <a href="mailto:z47985641@gnmail.com">mail to me</a>
+    <a href="SC.html#book1">SC-台灣團體</a>
+    <br />
+
+    <ul class="list">
+        <li><a href="First.html">First</a></li>
+        <li><a href="SC.html">Sc</a></li>
+        <li><a href="mailto:z47985641@gnmail.com">mail to me</a></li>
+        <li><a href="SC.html#book1">SC-台灣團體</a></li>
+    </ul>
+    <figure style="background-color:antiquewhite">
+        <img src="image/b0.jpg" alt="台灣黑熊" title="黑熊熊" height="300" width="300" />
+        <a href="SC.html#book2">
+            <img src="image/b1.jpg" alt="台灣黑熊" title="黑熊熊" height="300" width="300" />
+        </a>
+        <figcaption>台灣黑熊</figcaption>
+    </figure>
+</body>
+</html>

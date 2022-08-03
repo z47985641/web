@@ -1,0 +1,31 @@
+﻿.st1{
+    font-family: 標楷體;
+    color: #FFD1A4;
+    font-size: 64px
+}
+
+.st2 {
+    font-family: 細明體;
+    color: red;
+    font-size: 2em
+}
+
+h1.st3 {
+    font-family: 標楷體;
+    color: red;
+    font-size: 300%
+}
+
+.ft {
+    font-family: 華康娃娃體;
+    background-color: mistyrose
+}
+
+.cl {
+    color: #C4E1E1
+}
+
+.sz {
+    font-size: 500%
+}
+
