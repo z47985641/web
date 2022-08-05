@@ -14,6 +14,7 @@
 .D2 {
     width: 425px;
     float: left;
+    box-shadow: 1em 1em 5px gray;
 }
 .img1 {
     width: 400px;
@@ -38,6 +39,7 @@
 h1 {
     color: #6FB7B7;
     font-size: 30px;
+    text-shadow: 5px 5px 5px gray ;
 }
 
 h2 {
